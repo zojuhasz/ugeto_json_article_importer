@@ -1,0 +1,7 @@
+json_article_importer.import_articles:
+  path: '/admin/content/import-articles'
+  defaults:
+    _controller: '\Drupal\json_article_importer\Controller\JsonImportController::importArticles'
+    _title: 'Import Articles'
+  requirements:
+    _permission: 'administer content'

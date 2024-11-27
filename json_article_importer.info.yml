@@ -1,0 +1,5 @@
+name: JSON Article Importer
+type: module
+description: 'Custom module to import articles from a JSON file.'
+package: Custom
+core_version_requirement: ^10 || ^11
